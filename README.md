@@ -111,6 +111,32 @@ petunjuk berguna
           git config format.pretty oneline
           menggunakan penambahan interaktif
           git add -i
+          
+          
+menghapus remote
+          
+          git remote rm origin
+          cek: git remote -v
+          git remote add orgin https://github.com/renaldy22/panduanGit/edit/main/README.md
+          git push origin master ->jika master
+          
+          
+git hapus credential
+          
+          buka start -> credential manager -> hapus github
+          
+ganti user 
+          
+          git config --global user.name (renaldy22)
+          git config --gobal user.email ........
+          cek: git config --list
+          
+update repo
+
+          git init
+          git add .
+          git commit -m "init"
+          cek: git status
 
 https://rogerdudler.github.io/git-guide/index.id.html#:~:text=persiapan,git%20untuk%20Linux
 
